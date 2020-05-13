@@ -1,0 +1,29 @@
+{
+  "yoplaApp": {
+    "articles": {
+      "home": {
+        "title": "Articles",
+        "createLabel": "Créer un nouveau Articles",
+        "createOrEditLabel": "Créer ou éditer un Articles",
+        "search": "Recherche pour Articles",
+        "notFound": "Aucun Articles trouvé"
+      },
+      "created": "Un nouveau Articles a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Articles avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Articles avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Articles {{ id }} ?"
+      },
+      "detail": {
+        "title": "Articles"
+      },
+      "articleName": "Article Name",
+      "price": "Price",
+      "taxRateIfPickUp": "Tax Rate If Pick Up",
+      "taxRateIfDineIn": "Tax Rate If Dine In",
+      "information": "Information",
+      "ingredient": "Ingredient",
+      "image": "Image"
+    }
+  }
+}

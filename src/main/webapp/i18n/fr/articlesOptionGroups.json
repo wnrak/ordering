@@ -1,0 +1,26 @@
+{
+  "yoplaApp": {
+    "articlesOptionGroups": {
+      "home": {
+        "title": "ArticlesOptionGroups",
+        "createLabel": "Créer un nouveau Articles Option Groups",
+        "createOrEditLabel": "Créer ou éditer un Articles Option Groups",
+        "search": "Recherche pour Articles Option Groups",
+        "notFound": "Aucun Articles Option Groups trouvé"
+      },
+      "created": "Un nouveau Articles Option Groups a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Articles Option Groups avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Articles Option Groups avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Articles Option Groups {{ id }} ?"
+      },
+      "detail": {
+        "title": "Articles Option Groups"
+      },
+      "optionName": "Option Name",
+      "activeOptionName": "Active Option Name",
+      "minValue": "Min Value",
+      "maxValue": "Max Value"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+version: '2'
+services:
+  yopla-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/yopla/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=yopla
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

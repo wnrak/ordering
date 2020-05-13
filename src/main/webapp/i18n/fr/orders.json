@@ -1,0 +1,32 @@
+{
+  "yoplaApp": {
+    "orders": {
+      "home": {
+        "title": "Orders",
+        "createLabel": "Créer un nouveau Orders",
+        "createOrEditLabel": "Créer ou éditer un Orders",
+        "search": "Recherche pour Orders",
+        "notFound": "Aucun Orders trouvé"
+      },
+      "created": "Un nouveau Orders a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Orders avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Orders avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Orders {{ id }} ?"
+      },
+      "detail": {
+        "title": "Orders"
+      },
+      "orderNumber": "Order Number",
+      "orderStatus": "Order Status",
+      "paymentStatus": "Payment Status",
+      "tableNumber": "Table Number",
+      "customerName": "Customer Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "address": "Address",
+      "totalAmount": "Total Amount",
+      "user": "User"
+    }
+  }
+}

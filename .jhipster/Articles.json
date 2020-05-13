@@ -1,0 +1,53 @@
+{
+    "name": "Articles",
+    "fields": [
+        {
+            "fieldName": "articleName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "taxRateIfPickUp",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "taxRateIfDineIn",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "information",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ingredient",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "image",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200513214700",
+    "entityTableName": "articles",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": [
+        "yopla"
+    ]
+}

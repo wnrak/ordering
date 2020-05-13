@@ -1,0 +1,23 @@
+{
+  "yoplaApp": {
+    "categories": {
+      "home": {
+        "title": "Categories",
+        "createLabel": "Créer un nouveau Categories",
+        "createOrEditLabel": "Créer ou éditer un Categories",
+        "search": "Recherche pour Categories",
+        "notFound": "Aucun Categories trouvé"
+      },
+      "created": "Un nouveau Categories a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Categories avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Categories avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Categories {{ id }} ?"
+      },
+      "detail": {
+        "title": "Categories"
+      },
+      "categoryName": "Category Name"
+    }
+  }
+}

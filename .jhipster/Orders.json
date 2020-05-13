@@ -1,0 +1,63 @@
+{
+    "name": "Orders",
+    "fields": [
+        {
+            "fieldName": "orderNumber",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "orderStatus",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "paymentStatus",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tableNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "customerName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phoneNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "totalAmount",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "orders",
+            "relationshipName": "user",
+            "otherEntityField": "login"
+        }
+    ],
+    "changelogDate": "20200513215000",
+    "entityTableName": "orders",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": [
+        "yopla"
+    ]
+}

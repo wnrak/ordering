@@ -1,0 +1,25 @@
+{
+  "yoplaApp": {
+    "articlesOptions": {
+      "home": {
+        "title": "ArticlesOptions",
+        "createLabel": "Créer un nouveau Articles Options",
+        "createOrEditLabel": "Créer ou éditer un Articles Options",
+        "search": "Recherche pour Articles Options",
+        "notFound": "Aucun Articles Options trouvé"
+      },
+      "created": "Un nouveau Articles Options a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Articles Options avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Articles Options avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Articles Options {{ id }} ?"
+      },
+      "detail": {
+        "title": "Articles Options"
+      },
+      "name": "Name",
+      "choice": "Choice",
+      "price": "Price"
+    }
+  }
+}

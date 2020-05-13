@@ -1,0 +1,89 @@
+application {
+  config {
+    applicationType monolith,
+    baseName yopla
+    packageName com.yopla.ordering,
+    authenticationType jwt,
+    prodDatabaseType postgresql,
+    buildTool gradle,
+    searchEngine elasticsearch,
+    testFrameworks [protractor],
+    clientFramework react,
+    useSass true,
+    enableTranslation true,
+    nativeLanguage en,
+    languages [en, fr]
+  }
+  entities Restaurant, Categories, ArticlesOptionGroups, Articles, ArticlesOptions, QrCodeTables, Orders
+}
+
+// JDL definition for application 'TwentyOnePoints' generated with command 'jhipster export-jdl'
+
+entity Restaurant {
+  restaurantName String required
+  Location String  required
+  banner String  required
+  logo String required
+  numberOfTables Integer required
+  availability  Boolean  required
+  apiKey  String required
+  payLater Boolean 
+  askForService Boolean
+  enableSms Boolean
+  slug String required
+}
+entity Categories {
+  categoryName  String required,
+  
+}
+
+entity ArticlesOptionGroups {
+  optionName String required
+  activeOptionName String required
+  minValue Integer
+  maxValue Integer
+  
+}
+
+
+entity Articles {
+  articleName String required
+  price Integer required
+  taxRateIfPickUp Integer 
+  taxRateIfDineIn  Integer
+  information   String 
+  ingredient  String 
+  image  String 
+}
+entity ArticlesOptions {
+ name String
+ choice String 
+ price Integer 
+
+}
+entity QrCodeTables {
+  tableNumber String
+  qrCode String
+
+}
+
+entity Orders {
+  orderNumber Integer
+  orderStatus String
+  paymentStatus String
+  tableNumber String
+  customerName String
+  email  String
+  phoneNumber String
+  address String
+  totalAmount  Double
+}
+
+
+relationship ManyToOne {
+  Orders{user(login)} to User
+  
+}
+
+
+# paginate Orders with pagination

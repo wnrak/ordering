@@ -1,0 +1,33 @@
+{
+  "yoplaApp": {
+    "restaurant": {
+      "home": {
+        "title": "Restaurants",
+        "createLabel": "Create a new Restaurant",
+        "createOrEditLabel": "Create or edit a Restaurant",
+        "search": "Search for Restaurant",
+        "notFound": "No Restaurants found"
+      },
+      "created": "A new Restaurant is created with identifier {{ param }}",
+      "updated": "A Restaurant is updated with identifier {{ param }}",
+      "deleted": "A Restaurant is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Restaurant {{ id }}?"
+      },
+      "detail": {
+        "title": "Restaurant"
+      },
+      "restaurantName": "Restaurant Name",
+      "location": "Location",
+      "banner": "Banner",
+      "logo": "Logo",
+      "numberOfTables": "Number Of Tables",
+      "availability": "Availability",
+      "apiKey": "Api Key",
+      "payLater": "Pay Later",
+      "askForService": "Ask For Service",
+      "enableSms": "Enable Sms",
+      "slug": "Slug"
+    }
+  }
+}

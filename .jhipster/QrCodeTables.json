@@ -1,0 +1,27 @@
+{
+    "name": "QrCodeTables",
+    "fields": [
+        {
+            "fieldName": "tableNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "qrCode",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200513214900",
+    "entityTableName": "qr_code_tables",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": [
+        "yopla"
+    ]
+}

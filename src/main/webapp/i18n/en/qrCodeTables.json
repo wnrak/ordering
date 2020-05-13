@@ -1,0 +1,24 @@
+{
+  "yoplaApp": {
+    "qrCodeTables": {
+      "home": {
+        "title": "Qr Code Tables",
+        "createLabel": "Create a new Qr Code Tables",
+        "createOrEditLabel": "Create or edit a Qr Code Tables",
+        "search": "Search for Qr Code Tables",
+        "notFound": "No Qr Code Tables found"
+      },
+      "created": "A new Qr Code Tables is created with identifier {{ param }}",
+      "updated": "A Qr Code Tables is updated with identifier {{ param }}",
+      "deleted": "A Qr Code Tables is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Qr Code Tables {{ id }}?"
+      },
+      "detail": {
+        "title": "Qr Code Tables"
+      },
+      "tableNumber": "Table Number",
+      "qrCode": "Qr Code"
+    }
+  }
+}

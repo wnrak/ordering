@@ -1,0 +1,41 @@
+{
+    "name": "ArticlesOptionGroups",
+    "fields": [
+        {
+            "fieldName": "optionName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "activeOptionName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "minValue",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "maxValue",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200513214600",
+    "entityTableName": "articles_option_groups",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": [
+        "yopla"
+    ]
+}
